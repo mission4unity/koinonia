@@ -118,7 +118,7 @@ tests/                  unit- en end-to-end-tests
 
 Koinonia is en blijft gratis. Het is gemaakt door Stichting Mission 4 Unity International, die zich inzet voor eenheid onder christenen. Gebruikt jouw kerk of organisatie het en wil je het onderhoud en de doorontwikkeling mogelijk maken, dan stellen we een vrijwillige gift van **€60** zeer op prijs. Dat is nooit een voorwaarde om Koinonia te gebruiken. Meer of minder geven mag ook.
 
-Gift: [Stripe (iDEAL, kaart)](https://donate.stripe.com/28EcN57C3bdj4fC3mB9oc0c) · [PayPal](https://www.paypal.com/ncp/payment/PLB-EP65FY59PSBN)
+Gift: [Stripe (iDEAL, kaart)](https://donate.stripe.com/28EcN57C3bdj4fC3mB9oc0c) · [PayPal](https://www.paypal.com/ncp/payment/PLB-85UUDEHCNYUQ)
 
 ## Licentie
 
