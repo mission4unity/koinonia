@@ -3,6 +3,8 @@
 **Gratis, open-source e-mailnieuwsbrieven voor kerken en christelijke organisaties.**
 *Free, open-source email newsletters for churches and Christian non-profits.* — [English below](#english)
 
+*Een project van [Stichting Mission 4 Unity International](https://mission4unity.com).*
+
 Koinonia (Grieks: *gemeenschap*) is een alternatief voor Mailchimp dat je zelf host. Er zijn geen abonnementen, geen limieten op contacten of e-mails en geen reclame in je mails. Je gegevens blijven op je eigen server.
 
 Lees in [docs/EVALUATIE.md](docs/EVALUATIE.md) hoe Koinonia zich verhoudt tot Mailchimp, Brevo, MailerLite, Kit, listmonk, Mautic en kerkspecifieke diensten.
@@ -59,6 +61,8 @@ docker run -d -p 8080:8080 -v koinonia-data:/data --name koinonia koinonia
 
 **Back-up:** alles staat in één bestand, `data/koinonia.db`, plus de map `data/uploads/`. Kopieer die regelmatig. Gebruik bij een draaiende server bij voorkeur `sqlite3 data/koinonia.db ".backup backup.db"`.
 
+**Let op bij back-ups:** het bestand bevat ook je contactgegevens en het SMTP-wachtwoord (leesbaar opgeslagen). Bewaar back-ups daarom versleuteld of op een afgeschermde plek en deel ze niet.
+
 **Als dienst (systemd):**
 ```ini
 [Unit]
@@ -110,6 +114,12 @@ koinonia/locales/       vertalingen
 tests/                  unit- en end-to-end-tests
 ```
 
+## Steun dit werk
+
+Koinonia is en blijft gratis. Het is gemaakt door Stichting Mission 4 Unity International, die zich inzet voor eenheid onder christenen. Gebruikt jouw kerk of organisatie het en wil je het onderhoud en de doorontwikkeling mogelijk maken, dan stellen we een vrijwillige gift van **€60** zeer op prijs. Dat is nooit een voorwaarde om Koinonia te gebruiken. Meer of minder geven mag ook.
+
+Gift: [Stripe (iDEAL, kaart)](https://donate.stripe.com/28EcN57C3bdj4fC3mB9oc0c) · [PayPal](https://www.paypal.com/ncp/payment/PLB-EP65FY59PSBN)
+
 ## Licentie
 
 [GNU Affero General Public License v3.0 of later](LICENSE). Je mag Koinonia gratis gebruiken, aanpassen en verspreiden. Bied je een aangepaste versie als dienst aan, dan moet je de broncode ook delen. Zo blijft het voor iedereen vrij.
@@ -130,3 +140,5 @@ Koinonia (Greek: *fellowship*) is a self-hosted alternative to Mailchimp for chu
 **Test it:** `python3 -m unittest discover -s tests`
 
 **License:** AGPL-3.0-or-later.
+
+**Support:** Koinonia is free and always will be. It is made by Stichting Mission 4 Unity International. If your church or organisation uses it and you would like to support its upkeep, a voluntary gift of €60 is much appreciated. It is never a condition for using Koinonia.
