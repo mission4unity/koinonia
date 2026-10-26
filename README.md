@@ -120,6 +120,8 @@ Koinonia is en blijft gratis. Het is gemaakt door Stichting Mission 4 Unity Inte
 
 Gift: [Stripe (iDEAL, kaart)](https://donate.stripe.com/28EcN57C3bdj4fC3mB9oc0c) · [PayPal](https://www.paypal.com/ncp/payment/PLB-85UUDEHCNYUQ)
 
+Vragen, hulp bij de installatie of even sparren? Mail ons via <stichting@mission4unity.com>.
+
 ## Licentie
 
 [GNU Affero General Public License v3.0 of later](LICENSE). Je mag Koinonia gratis gebruiken, aanpassen en verspreiden. Bied je een aangepaste versie als dienst aan, dan moet je de broncode ook delen. Zo blijft het voor iedereen vrij.
@@ -142,3 +144,5 @@ Koinonia (Greek: *fellowship*) is a self-hosted alternative to Mailchimp for chu
 **License:** AGPL-3.0-or-later.
 
 **Support:** Koinonia is free and always will be. It is made by Stichting Mission 4 Unity International. If your church or organisation uses it and you would like to support its upkeep, a voluntary gift of €60 is much appreciated. It is never a condition for using Koinonia.
+
+Questions or help with installing? Email <stichting@mission4unity.com>.
